@@ -125,7 +125,7 @@ plt.xlabel('Report dates');
 plt.ylabel('STB');
 ```
 
-![](https://github.com/Python-Ensemble-Toolbox/SimulatorWrap/tree/main/Example/README_11_0.png)
+![alt text](https://github.com/Python-Ensemble-Toolbox/SimulatorWrap/tree/main/Example/README_11_0.png?raw=true)
 
 
 ```python
