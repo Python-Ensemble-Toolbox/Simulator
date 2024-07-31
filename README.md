@@ -138,7 +138,7 @@ plt.ylabel('STB');
 
 
 <h1 align="center">
-<img src="https://github.com/Python-Ensemble-Toolbox/SimulatorWrap/tree/main/Example/README_12_0.png" width="300">
+<img src="https://github.com/Python-Ensemble-Toolbox/SimulatorWrap/tree/main/Example/README_12_0.png">
 </h1><br>
 
 
