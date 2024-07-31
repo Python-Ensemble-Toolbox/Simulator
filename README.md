@@ -126,8 +126,9 @@ plt.ylabel('STB');
 ```
 
 
-    
-![png](README_files/README_11_0.png)
+<h1 align="center">
+<img src="https://github.com/Python-Ensemble-Toolbox/SimulatorWrap/tree/main/Example/README_11_0.png" width="300">
+</h1><br>
     
 
 
@@ -141,9 +142,9 @@ plt.ylabel('STB');
 ```
 
 
-    
-![png](README_files/README_12_0.png)
-    
+<h1 align="center">
+<img src="https://github.com/Python-Ensemble-Toolbox/SimulatorWrap/tree/main/Example/README_12_0.png" width="300">
+</h1><br>
 
 
 
@@ -156,9 +157,9 @@ plt.ylabel('STB');
 ```
 
 
-    
-![png](README_files/README_13_0.png)
-    
+<h1 align="center">
+<img src="https://github.com/Python-Ensemble-Toolbox/SimulatorWrap/tree/main/Example/README_13_0.png" width="300">
+</h1><br>
 
 
 
@@ -171,7 +172,7 @@ plt.ylabel('STB');
 ```
 
 
-    
-![png](README_files/README_14_0.png)
-    
+<h1 align="center">
+<img src="https://github.com/Python-Ensemble-Toolbox/SimulatorWrap/tree/main/Example/README_14_0.png" width="300">
+</h1><br>
 
