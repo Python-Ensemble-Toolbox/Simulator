@@ -10,15 +10,12 @@ from multiprocessing import Process
 import datetime as dt
 from scipy import interpolate
 from subprocess import call, DEVNULL
-from misc import ecl, grdecl
 from shutil import rmtree, copytree  # rmtree for removing folders
-import time
-# import rips
+
 
 # Internal imports
-from misc.system_tools.environ_var import EclipseRunEnvironment
-from pipt.misc_tools.analysis_tools import store_ensemble_sim_information
-
+from simulator.multphaseflow.misc import ecl, grdecl
+from simulator.multphaseflow.misc.system_tools.environ_var import EclipseRunEnvironment
 
 class eclipse:
     """
@@ -304,7 +301,9 @@ class eclipse:
         if success:
             self.extract_data(member_i)
             if del_folder:
-                if self.saveinfo is not None:  # Try to save information
+                if self.saveinfo is not None:  # Try to save information. This relies on the use of a PET package which
+                    # needs to be imported.
+                    from pipt.misc_tools.analysis_tools import store_ensemble_sim_information
                     store_ensemble_sim_information(self.saveinfo, member_i)
                 self.remove_folder(member_i)
             return self.pred_data
@@ -314,7 +313,8 @@ class eclipse:
                 if success:
                     self.extract_data(member_i)
                     if del_folder:
-                        if self.saveinfo is not None:  # Try to save information
+                        if self.saveinfo is not None:  # Try to save information. See comment above.
+                            from pipt.misc_tools.analysis_tools import store_ensemble_sim_information
                             store_ensemble_sim_information(self.saveinfo, member_i)
                         self.remove_folder(member_i)
                     return self.pred_data

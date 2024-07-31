@@ -5,8 +5,8 @@ import os
 import shutil
 
 # Internal imports
-from simulator.eclipse import eclipse
-from misc.system_tools.environ_var import OPMRunEnvironment
+from simulator.multphaseflow.eclipse import eclipse
+from simulator.multphaseflow.misc.system_tools.environ_var import OPMRunEnvironment
 
 
 class flow(eclipse):

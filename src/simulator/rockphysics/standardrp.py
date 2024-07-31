@@ -5,9 +5,6 @@ __author__ = 'TM'
 # standardrp.py
 import numpy as np
 import sys
-import multiprocessing as mp
-# internal load
-from misc.system_tools.environ_var import OpenBlasSingleThread  # Single threaded OpenBLAS runs
 
 
 class elasticproperties:

@@ -1,9 +1,9 @@
-from simulator.opm import flow
+from simulator.multphaseflow.opm import flow
 from importlib import import_module
 import datetime as dt
 import numpy as np
 import os
-from misc import ecl, grdecl
+from simulator.multphaseflow.misc import ecl, grdecl
 import shutil
 import glob
 from subprocess import Popen, PIPE
