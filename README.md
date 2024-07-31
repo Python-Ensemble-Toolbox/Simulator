@@ -125,12 +125,7 @@ plt.xlabel('Report dates');
 plt.ylabel('STB');
 ```
 
-
-<h1 align="center">
-<img src="https://github.com/Python-Ensemble-Toolbox/SimulatorWrap/tree/main/Example/README_11_0.png" width="300">
-</h1><br>
-    
-
+![](https://github.com/Python-Ensemble-Toolbox/SimulatorWrap/tree/main/Example/README_11_0.png)
 
 
 ```python
