@@ -9,7 +9,7 @@ python3 -m pip install -e .
 ```
 
 ## Examples
-The example demonstrates usage of [OPM-flow](https://opm-project.org/). To reproduce, ensure that OPM-flow is installed and in the path. To reproduce this notebook download the [3Spot example](https://github.com/Python-Ensemble-Toolbox/Examples/tree/main/3Spot) to disk.
+The example demonstrates usage of [OPM-flow](https://opm-project.org/). To reproduce, ensure that OPM-flow is installed and in the path. The full noteboox is [here](https://github.com/Python-Ensemble-Toolbox/SimulatorWrap/tree/main/Example), we employ the [3Spot example](https://github.com/Python-Ensemble-Toolbox/Examples/tree/main/3Spot) as a template for this example. All files are Example folder.
 
 
 ```python
