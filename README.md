@@ -14,7 +14,7 @@ The example demonstrates usage of [OPM-flow](https://opm-project.org/). To repro
 
 ```python
 # import the flow class
-from simulator.multphaseflow.opm import flow
+from simulator.multiphaseflow.opm import flow
 # import datatime
 import datetime as dt
 # import numpy
