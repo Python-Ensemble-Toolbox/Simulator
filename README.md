@@ -1,4 +1,4 @@
-# Simulator
+# Subsurface
 Repository containing some standard simulation wrappers. For a detailed description of how to build the wrappers,
 see the documentation for PET.
 
@@ -14,7 +14,7 @@ The example demonstrates usage of [OPM-flow](https://opm-project.org/). To repro
 
 ```python
 # import the flow class
-from simulator.multphaseflow.opm import flow
+from subsurface.multphaseflow.opm import flow
 # import datatime
 import datetime as dt
 # import numpy

@@ -14,8 +14,8 @@ from shutil import rmtree, copytree  # rmtree for removing folders
 
 
 # Internal imports
-from simulator.multphaseflow.misc import ecl, grdecl
-from simulator.multphaseflow.misc.system_tools.environ_var import EclipseRunEnvironment
+from subsurface.multphaseflow.misc import ecl, grdecl
+from subsurface.multphaseflow.misc.system_tools.environ_var import EclipseRunEnvironment
 
 class eclipse:
     """
